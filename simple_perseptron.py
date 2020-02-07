@@ -12,7 +12,7 @@ class SimplePerceptron(object):
     def __init__(self,input_length):
         self.input_length = input_length
         # np.random.nornal(loc=0.0,scale=1.0,size=None)
-        # → 平均loc, 標準偏差scaleお正規分布に従う乱数を返す。
+        # → 平均loc, 標準偏差scaleを正規分布に従う乱数を返す。
         self.w = np.random.normal(size=(input_length,))
         self.b = 0.
 
